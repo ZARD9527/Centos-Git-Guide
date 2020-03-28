@@ -18,7 +18,7 @@ git commit . -m "备注文字"
 git remote add origin git@github.com:***/test.git
 
 第六步：上传github之前，要先pull一下，执行如下命令：  
-git pull origin master
+git pull origin master   (有时会提示失败 fatal: Couldn't find remote ref master 但不用管,继续执行下一条命令)
 
 第七步，上传代码到github远程仓库  
 git push -u origin master
